@@ -7,7 +7,7 @@ spec:
   selector: # labels are used as selectors
     app: backend
     tier: backend
-    purpose: expense
+    project: expense
     version: blue
   ports:
   - protocol: TCP

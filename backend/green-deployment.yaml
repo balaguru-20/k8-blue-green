@@ -7,7 +7,7 @@ metadata:
   labels:
     app: backend
     tier: backend
-    purpose: expense
+    project: expense
     version:  green
 spec:
   replicas: 1
@@ -15,14 +15,14 @@ spec:
     matchLabels:
       app: backend
       tier: backend
-      purpose: expense
+      project: expense
       version:  green
   template:
     metadata:
       labels:
         app: backend
         tier: backend
-        purpose: expense
+        project: expense
         version:  green
     spec:
       containers:
